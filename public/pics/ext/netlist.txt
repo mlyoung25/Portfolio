@@ -1,0 +1,10 @@
+* Netlist created with www.circuit-diagram.org
+* 
+V1 0 0
+V2 1 2 5
+R3 3 0 1000
+'antenna com:0 style=Open transmitting=True receiving=False
+'transnpn emit:4 col:5 base:3 t=NPN
+D4 6 0
+R5 7 6 500
+'Raspberry Pi A+ / B+, 2 and Zero GPIO #4:1 #20:2 #21:5 #23:4 #19:0 #3:7
