@@ -77,19 +77,19 @@ const TabMenu = (props) => {
                         </Grid>
                         <Divider />
                         <Grid item>
-                            <Tooltip title="www.github.com/ThatZiv?tab=repositories">
-                                <Link href="https://github.com/ThatZiv?tab=repositories" target="_blank">
+                            <Tooltip title="www.github.com/mlyoung25?tab=repositories">
+                                <Link href="https://github.com/mlyoung25?tab=repositories" target="_blank">
                                     <Fade timeout={575} in mountOnEnter unmountOnExit>
-                                        <img alt="top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thatziv&layout=compact&theme=dark&count_private=true&&langs_count=11&hide_border=true&bg_color=#121212&border_radius=3&show_owner=true" />
+                                        <img alt="top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mlyoung25&layout=compact&theme=dark&count_private=true&&langs_count=11&hide_border=true&bg_color=#121212&border_radius=3&show_owner=true" />
                                     </Fade>
                                 </Link>
                             </Tooltip>
                         </Grid>
                         <Grid item>
-                            <Tooltip title="www.github.com/ThatZiv">
-                                <Link href="https://github.com/ThatZiv" target="_blank">
+                            <Tooltip title="www.github.com/mlyoung25">
+                                <Link href="https://github.com/mlyoung25" target="_blank">
                                     <Fade timeout={575} in mountOnEnter unmountOnExit>
-                                        <img alt="gh profile stats" src="https://github-readme-stats.vercel.app/api?username=thatziv&count_private=true&theme=dark&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&bg_color=#121212&border_radius=3" />
+                                        <img alt="gh profile stats" src="https://github-readme-stats.vercel.app/api?username=mlyoung25&count_private=true&theme=dark&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&bg_color=#121212&border_radius=3" />
                                     </Fade>
                                 </Link>
                             </Tooltip>
@@ -124,20 +124,17 @@ const TabMenu = (props) => {
 // TODO: add shields.to image badges for other libraries/frameworks
 // static data here
 const my = {
-    "preamble": `A passionate computer science student at 
-    Wayne State University who seeks to employ innovative 
+    "preamble": `A passionate computer science and Business student 
+    at the University of Michigan who seeks to employ innovative 
     new technologies and methodologies in the workplace.`,
-    "name": "Zavaar Shah",
+    "name": "Michael Young",
     "langs": {
         primary: [
             "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E",
             "https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue",
-            "https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white",
-            "https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white",
             "https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white",
-            "https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white",
-            "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white",
             "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white",
+            "https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white",
             "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
             "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
             "https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white",
@@ -145,48 +142,22 @@ const my = {
         ],
         secondary: [ // these are frameworks
             "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white",
-            "https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black",
             "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
             "https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
-            "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
-            "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white",
             "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white",
-            "https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white",
             "https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white",
             "https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9",
-            "https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white",
-            "https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white",
-            "https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white",
-            "https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white",
-            "https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white",
-            "https://img.shields.io/badge/material%20design-757575?style=for-the-badge&logo=material%20design&logoColor=white",
+            "https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)",
+            "https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)",
             "https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white",
-            "https://img.shields.io/badge/Socket.io-010101?&style=for-the-badge&logo=Socket.io&logoColor=white",
-            "https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white",
-            "https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white",
-            "https://img.shields.io/badge/Node--Red-8F0000?style=for-the-badge&logo=nodered&logoColor=white",
             "https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white",
-            "https://img.shields.io/badge/Pug-E3C29B?style=for-the-badge&logo=pug&logoColor=black",
-            "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens",
-            "https://img.shields.io/badge/OAuth-2.0-white?style=for-the-badge&logo=Oauth2",
-            "https://img.shields.io/badge/Twilio-API-F22F46?style=for-the-badge&logo=Twilio&logoColor=white",
-            "https://img.shields.io/badge/Patreon-API-F96854?style=for-the-badge&logo=Patreon",
             "https://img.shields.io/badge/GitHub-API-white?style=for-the-badge&logo=GitHub",
             "https://img.shields.io/badge/Spotify-API-1ED760?style=for-the-badge&logo=Spotify",
             "https://img.shields.io/badge/discord.js-API-5865F2?style=for-the-badge&logo=Discord",
             "https://img.shields.io/badge/tmi.js-API-9146FF?style=for-the-badge&logo=Twitch",
         ],
         extra: [
-            "https://img.shields.io/badge/Brain.js-yellow?style=flat-square",
             "https://img.shields.io/badge/PyGame-informational?style=flat-square",
-            "https://img.shields.io/badge/YTDL-red?style=flat-square",
-            "https://img.shields.io/badge/Hugo-blueviolet?style=flat-square",
-            "https://img.shields.io/badge/ArcGIS-API-blue?style=flat-square",
-            "https://img.shields.io/badge/ActionsOnGoogle-yellowgreen?style=flat-square",
-            "https://img.shields.io/badge/MongooseJS-e6557e?style=flat-square",
-            "https://img.shields.io/badge/Deta-CLI-ff69c9?style=flat-square",
-            "https://img.shields.io/badge/PM2-Daemon-50b575?style=flat-square",
-
         ]
     },
     "tools": {

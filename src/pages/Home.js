@@ -67,13 +67,13 @@ export default function Home() {
                     <Fade in timeout={5000} mountOnEnter unmountOnExit>
                         <Grid container spacing={1}>
                             <Grid item>
-                                <SocialMedia showName icon="envelope" name="Email" url="mailto:zavaar.shah123@gmail.com" />
+                                <SocialMedia showName icon="envelope" name="Email" url="mailto:michael.lyoung225@gmail.com" />
                             </Grid>
                             <Grid item>
                                 <SocialMedia showName url="https://www.linkedin.com/in/zavaar-shah" confirmation />
                             </Grid>
                             <Grid item>
-                                <SocialMedia showName url="https://github.com/thatziv" confirmation />
+                                <SocialMedia showName url="https://github.com/mlyoung25" confirmation />
                             </Grid>
                             <Grid item>
                                 <div onClick={() => dispatch({ type: "UI_nav", focus: "portfolio" })}>

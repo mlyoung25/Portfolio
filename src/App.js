@@ -44,7 +44,7 @@ function App() {
   const [state, dispatch] = React.useContext(UserContext)
   const [dialog, setDialog] = React.useState()
   React.useEffect(() => { // this is makeshift
-    document.title = capFirstLetter(state.focus) + " | Zavaar Shah"
+    document.title = capFirstLetter(state.focus) + " | Michael Young"
     ReactGA.pageview("/" + state.focus) // TODO: see if this works on prod
     setLoading(true)
     setTimeout(() => {
