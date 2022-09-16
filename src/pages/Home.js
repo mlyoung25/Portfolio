@@ -70,7 +70,7 @@ export default function Home() {
                                 <SocialMedia showName icon="envelope" name="Email" url="mailto:michael.lyoung225@gmail.com" />
                             </Grid>
                             <Grid item>
-                                <SocialMedia showName url="https://www.linkedin.com/in/zavaar-shah" confirmation />
+                                <SocialMedia showName url="https://www.linkedin.com/in/michael-liu-young" confirmation />
                             </Grid>
                             <Grid item>
                                 <SocialMedia showName url="https://github.com/mlyoung25" confirmation />
