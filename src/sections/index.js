@@ -124,7 +124,7 @@ const TabMenu = (props) => {
 // TODO: add shields.to image badges for other libraries/frameworks
 // static data here
 const my = {
-    "preamble": `A passionate computer science and Business student 
+    "preamble": `A passionate computer science and business student 
     at the University of Michigan who seeks to employ innovative 
     new technologies and methodologies in the workplace.`,
     "name": "Michael Young",
