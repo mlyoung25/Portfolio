@@ -1,22 +1,7 @@
 {
-  "short_name": "Zavaar Shah",
-  "name": "The Portfolio of Zavaar Shah",
+  "short_name": "Michae Young",
+  "name": "The Portfolio of Michael Young",
   "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "main.png",
-      "type": "image/png",
-      "sizes": "160x160"
-    },
-    {
-      "src": "main_square.png",
-      "type": "image/png",
-      "sizes": "1000x1000"
-    }
   ],
   "start_url": ".",
   "display": "standalone",
