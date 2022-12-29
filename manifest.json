@@ -1,0 +1,10 @@
+{
+  "short_name": "Michae Young",
+  "name": "The Portfolio of Michael Young",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
